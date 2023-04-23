@@ -5,6 +5,7 @@
 
 int f(int m, int n)
 {
+    Console.WriteLine($"{m},  {n}");
     if (m == 0)
         return n + 1;
     else if (n == 0)
